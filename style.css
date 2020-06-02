@@ -5,10 +5,15 @@ body {
   color: rgb(153, 136, 126);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+.centered {
+  width: 50px;
+  margin: 50px auto;
+}
 .header-h2 {
   color: rgb(204, 131, 123);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
 .article-plum {
   color: #764248;
   font-family: "Courier New", Courier, monospace;
@@ -16,14 +21,116 @@ body {
 .section-light-plum {
   color: #9c686e;
   font-family: "Courier New", Courier, monospace;
+  width: 400px;
+  margin: 50px auto;
 }
 
 nav a {
-  color: rgb(173, 121, 147);
+  color: rgb(255, 255, 255);
+  margin: 10px auto;
 }
 a {
   color: rgb(145, 87, 96);
 }
 .p-style {
   color: rgb(204, 131, 123);
+}
+
+.box {
+  background-color: rgb(87, 60, 63, 0.4);
+  width: 40px;
+  height: 30px;
+  margin: 10px auto;
+  border: #5e363b;
+  border: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 30px;
+  margin: 10px auto;
+}
+
+.box-one {
+  display: inline-block;
+  margin: 0px auto;
+  width: 400px;
+  min-height: 250px;
+  padding: 10px;
+}
+
+.food {
+  border: solid;
+  border-color: #977579;
+  background-color: rgba(241, 192, 215, 0.4);
+  max-width: 300px;
+  max-height: 500px;
+  padding: 10px;
+  margin: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5f3c40;
+}
+
+.food--breakfast {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5f3c40;
+}
+
+.food--dinner {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5f3c40;
+}
+
+.food__add {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5f3c40;
+}
+
+.food__add--paragraf {
+  background-color: rgb(196, 163, 167, 0.4);
+  border-radius: 25%;
+  border: #9c686e;
+}
+
+.box-two {
+  display: inline-block;
+  margin: 0px auto;
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+}
+
+.herbs_evryday {
+  border: solid;
+  border-color: #977579;
+  background-color: rgba(241, 192, 215, 0.4);
+  max-width: 300px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5f3c40;
+  margin: 20px;
+  display: inline-block;
+}
+
+.box-three {
+  display: inline-block;
+  margin: 0px auto;
+  width: 400px;
+  height: 250px;
+  padding: 10px;
+}
+
+.flowers_leaves {
+  border: solid;
+  border-color: #977579;
+  background-color: rgba(241, 192, 215, 0.4);
+  max-width: 300px;
+  padding: 10px;
+  margin: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #5f3c40;
+}
+
+.image-tosiek {
+  width: 200px;
+  border-radius: 30%;
+  padding: 30px;
 }

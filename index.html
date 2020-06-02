@@ -9,19 +9,23 @@
   </head>
 
   <body>
-    <nav>
-      <header>
-        <a href="nauka-html.html">Coś więcej o moich zabawach</a>
-      </header>
-    </nav>
+    <header>
+      <nav>
+        <div class="box">
+          <a href="nauka-html.html">moje zabawy</a>
+        </div>
+        <div class="box"><a href="index.html">strona główna</a></div>
+      </nav>
+    </header>
 
     <main>
-      <header>
+      <header class="centered">
         <h1 class="header-h1">Tosiek</h1>
       </header>
       <section class="section-light-plum">
         <h2 class="header-h2">Kim jestem?</h2>
         <img
+          class="image-tosiek"
           src="img/99138470_721074825369644_6491444825651412992_n.jpg"
           alt="rabbit"
         />
@@ -32,27 +36,79 @@
         Moim ulubionym zajęciem jest leniuchowanie i gryzienie laczków moich
         rodziców.
         <br />
-        Nie pogardzi świeżymi owocami i warzywami. <br />Zakupy najchętniej
+        Nie pogardzę świeżymi owocami i warzywami. <br />Zakupy najchętniej
         robimy na <a href="https://dlakrolika.pl/">DLA KRÓLIKA</a>, ale to mama
         musi płacić, ja przecież nie mam kieszonkowego. <br />
         Jeśli chcesz wiedzieć co najczęściej jadam
         <a href="#food">zapraszam tutaj</a>
       </section>
 
-      <section id="food">
-        <h2 class="header-h2">Odżywianie królika</h2>
+      <div class="box-one">
+        <section class="food" id="food">
+          <h2>Odżywianie królika</h2>
 
-        <h3>Śniadanie</h3>
-        Granulat w białej miseczce, garstka. Uzupełnienie wody i sianka.
-        <h3>Kolacja</h3>
-        Suszone zioła w różowej miseczce. Dwie garści.
-        <h3>Dodatkowo</h3>
-        Raz w tygodniu łyżka stołowa siemienia lnianego, dodatkowo smaczki
-        każdego dnia.
-      </section>
+          <h3 class="food--breakfast">Śniadanie</h3>
+          Dobrze dobrany granulat to podstawa. U nas najlepiej sprawdza się
+          VerseLaga adult, <br />
+          z racji tego, że jestem już prawie dorosły. Dodatkowo rano uzupełniamy
+          zapas sianka w paśniku i dolewamy wodę.
+          <h3 class="food--dinner">Kolacja</h3>
+          Suszone zioła, najlepiej smakuje własnoręcznie przyrządzona mieszanka
+          przez mamę. Trzeba pamiętać, że nie każde zioła można podawać
+          codziennie. Wykaz ziół znajdziesz <a href="#herbs">tutaj</a>
+
+          <h3 class="food__add">Dodatkowo</h3>
+          <p class="food__add food__add--paragraf">
+            Raz w tygodniu łyżka stołowa siemienia lnianego, dodatkowo smaczki
+            każdego dnia.
+          </p>
+        </section>
+      </div>
+
+      <div class="box-two">
+        <article class="herbs_evryday" id="herbs">
+          <h2>Zioła codzienne</h2>
+          Babka lancetowata, babka szerokolistna, <br />
+          Dziurawiec, Gwiazdnica pospolita, <br />
+          Mniszek lekarski, pięciornik gęsi, <br />
+          Brzoza, chmiel zwyczajny, <br />
+          Pokrzywa, skrzyp polny, <br />
+          Liście jabłoni, kozieradka, <br />
+          Podbiał, pokrzywa, <br />
+          Tasznik, perz, <br />
+          Krwawnik, lucerna, <br />
+          Meliska, mięta.
+        </article>
+      </div>
+
+      <div class="box-three">
+        <article class="flowers_leaves" id="flowers">
+          <h2>Kwiaty i liście</h2>
+          Należy pamiętać, aby nie zbierać naszych zapasów w pobliżu ruchliwych
+          dróg. Jeśli nie masz peności co do danej rośliny, nie podawaj jej
+          swojemu królikowi. <br/>
+          <h3>Kwiaty</h3>
+
+         Rumianek, chaber bławatek, <br />
+          Krwawnik, hibuskus, <br />
+         Fiołek trójbarwny, nagietek, <br />
+          Słonecznik,róża, <br />
+          Stokrotka,malwa, <br />
+          Lipa, topinambur,koniczyna. <br />
+
+          <h3>Liście</h3>
+
+          Gruszka, malina, jabłoń, <br />
+          Porzeczka, truskawka, morwa, <br />
+          Aronia, kukurydza, lipa,  <br />
+          Leszczyna, topinambur, wierzba, <br/>
+          Borówka, brzoza, głóg, <br/>
+          Poziomka, jeżówka purpurowa. <br/>
+        </article>
+      </div>
     </main>
     <footer>
-      <p>Pamiętaj żeby nie przekarmić, królik nigdy nie jest najedzony</p>
+      Pamiętaj żeby nie przekarmić, królik nigdy nie jest najedzony
     </footer>
 
     <script src="java.js"></script>
